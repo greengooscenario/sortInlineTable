@@ -2,6 +2,10 @@
 # this script sorts a table that is embedded in a larger file,
 # leaving anything before and after the table as is.
 
+# (C) 2017-2024 Matthias Jacobs. 
+# Licensed under GPL v3.0, or any later GPL version at your discretion.
+
+
 if ((test -z "$3") || (!(test -r "$1")))  # if length of string $3 is zero, too few parameters have been given! The first parameter "INFILE" must be an existant, readable file!
 then
     echo "Usage:" 
