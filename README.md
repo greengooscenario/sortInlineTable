@@ -36,7 +36,7 @@ OUTFILE will be overwritten if existant.
 INFILE and OUTFILE must not be identical.
 
 STARTMARK: Part of the line immediately preceeding the lines to be sorted.
-ENDMARK: Part of the line immediately following the lines to be sorted. Defaults to LaTeX command "end{", if not given explicitly.
+ENDMARK: Part of the line immediately following the lines to be sorted. Defaults to LaTeX command "_end{_", if not given explicitly.
 
 STARTMARK and ENDMARK are case sensitive!
 They will remain in place in the output and will not be removed.
@@ -48,7 +48,7 @@ unless you know what you are doing!
 
 
 # Author and Copyright
-sortinlinetable is (C) 2017-2024 Matthias Jacobs.
+sortInlineTable is (C) 2017-2024 Matthias Jacobs.
 
 It is licensed under GPL v3.0, or any later version at your discretion.
 See file LICENSE for further information.
